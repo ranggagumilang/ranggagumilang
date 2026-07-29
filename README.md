@@ -12,23 +12,23 @@
   <!-- ───── TAGLINE ───── -->
   <br>
   <samp>
-    Merancang arsitektur perangkat lunak skala produksi di 6+ industri<br>
-    EdTech · Konstruksi · Hospitality · Healthcare · Government · Career-Tech
+    Designing and launching production-scale software architectures across 6+ industries<br>
+    EdTech · Construction · Hospitality · Healthcare · Government · Career-Tech
   </samp>
   <br><br>
 
   <!-- ───── QUICK BADGES ───── -->
   <a href="https://rg.raihly.app"><img src="https://img.shields.io/badge/🌐_Portfolio-Interactive_3D_Website-6366f1?style=for-the-badge" alt="Portfolio"/></a>&nbsp;
   <a href="https://linkedin.com/in/ranggagum"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:ranggagum45@gmail.com"><img src="https://img.shields.io/badge/Email-Hubungi_Saya-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:ranggagum45@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
   <br><br>
 
   <!-- ───── CREDENTIAL BADGES ───── -->
-  <img src="https://img.shields.io/badge/GPA-3.87_Cum_Laude-F59E0B?style=flat-square&logo=Google-Scholar&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bangkit-Top_10%25_(92.56/100)-4285F4?style=flat-square&logo=Google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Projects-9%2B_Enterprise_%26_SaaS-10B981?style=flat-square&logo=Vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Industries-6%2B_Covered-8B5CF6?style=flat-square&logo=Buffer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GPA-3.87_Cum_Laude-F59E0B?style=flat-square&logo=Google-Scholar&logoColor=white" alt="GPA"/>
+  <img src="https://img.shields.io/badge/Bangkit-Top_10%25_(92.56/100)-4285F4?style=flat-square&logo=Google&logoColor=white" alt="Bangkit Academy"/>
+  <img src="https://img.shields.io/badge/Projects-9%2B_Enterprise_%26_SaaS-10B981?style=flat-square&logo=Vercel&logoColor=white" alt="Projects"/>
+  <img src="https://img.shields.io/badge/Industries-6%2B_Covered-8B5CF6?style=flat-square&logo=Buffer&logoColor=white" alt="Industries"/>
 
 </div>
 
@@ -38,13 +38,8 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="28" /> About Me
 
-```text
-🔧  Full-Stack Developer    ➜  Next.js 16 · NestJS 10 · PostgreSQL · Supabase
-📱  Mobile Engineer          ➜  Kotlin · Jetpack Compose · React Native · Expo
-🤖  AI Integration           ➜  Multi-Model LLM (Gemini/Gemma) · Vercel AI SDK
-🏗️  Enterprise Architecture  ➜  Modular Monolith · Multi-Tenancy · Message Queues
-🎓  Academic                 ➜  S1 Informatika UNESA (Cum Laude) · Bangkit 2024
-```
+**Full-Stack (Next.js, NestJS, PostgreSQL) & Mobile (Kotlin, React Native) Developer.** 
+Designing and launching production-scale systems across various industries, including EdTech, Hospitality, Construction, Healthcare, Design, and Career-Tech. Graduated from Bangkit Academy in the Top 10% (92.56/100) and Universitas Negeri Surabaya with Cum Laude honors (GPA 3.87).
 
 <br>
 
@@ -89,27 +84,27 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> Production Projects Showcase
 
-> **📌 Catatan**: Sebagian besar repositori bersifat *Private* untuk melindungi IP (Intellectual Property).
-> Di bawah ini adalah etalase sistem SaaS dan produk digital yang telah saya kembangkan.
+> **📌 Note**: Most repositories are strictly **Private** to protect Intellectual Property (IP).
+> Below is a showcase of the SaaS systems and digital products I have engineered and deployed.
 
 <!-- ─────────── BUILDFLOW ─────────── -->
 <details open>
-<summary><b>🏗️ BuildFlow — AI RAB & Cost Control SaaS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Internal_Beta_%2F_Bug_Fixing-F59E0B?style=flat-square"/></summary>
+<summary><b>🏗️ BuildFlow — AI Estimator & Cost Control SaaS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Internal_Beta-F59E0B?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- GANTI URL DI BAWAH DENGAN GAMBAR CANVA ANDA NANTI -->
+  <!-- REPLACE URL BELOW WITH YOUR CANVA IMAGE LATER -->
   <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/buildflow-showcase.png" width="90%" alt="BuildFlow Showcase"/> -->
 </div>
 
 <br>
 
-Platform SaaS Manajemen Konstruksi Enterprise *end-to-end* yang mengintegrasikan seluruh siklus proyek: agregasi multi-proyek, kalkulator RAB/HPP berstandar AHSP SNI, manajemen piutang & hutang vendor, generator dokumen legal (SPK, Invoice PDF), serta **AI Cost Control Assistant** bertenaga Multi-Model LLM. Saat ini dalam tahap *Beta Testing* (internal family use).
+End-to-End Enterprise Construction Management SaaS platform. Integrates the entire project lifecycle: multi-project aggregation, AHSP SNI standard cost estimator (RAB/HPP), budget variance analysis, S-Curve & daily log tracking, payables/receivables management, legal document generator, and an **AI Cost Control Assistant**.
 
-| Aspek | Detail |
-|-------|--------|
-| **AI Architecture** | Resilient Fallback Chain: Gemma 4 31B ➔ Gemini 3.5 Flash ➔ Gemini 3.6 (30K pesan/hari) |
-| **Security** | Human-in-the-Loop Action Cards — AI tidak bisa mengubah data RAB tanpa konfirmasi manusia |
+| Aspect | Details |
+|--------|---------|
+| **AI Architecture** | Resilient Fallback Chain: Gemma 4 31B ➔ Gemini 3.5 Flash ➔ Gemini 3.6 (30K msgs/day) |
+| **Security** | Human-in-the-Loop Action Cards — AI cannot mutate RAB data without manual user approval |
 | **Finance Modules** | Cashflow Chart, Payables/Receivables Tracker, P&L Summary, Budget Variance Analysis |
 | **Tech Stack** | `Next.js 16` · `PostgreSQL (Supabase RLS)` · `Vercel AI SDK` · `Zustand` · `jsPDF` |
 
@@ -126,16 +121,16 @@ Platform SaaS Manajemen Konstruksi Enterprise *end-to-end* yang mengintegrasikan
 
 <br>
 
-*Executive Operating System* terpadu untuk startup holding. Menyatukan **7 domain bisnis** ke dalam satu command center SPA. (Saat ini masih dalam tahap *Development* dan penyelesaian *bug*).
+An *Executive Operating System (OS)* designed for holding startups with multiple active products. Integrates **7 critical business domains** into a single Single Page Application (SPA) command center.
 
-| Domain | Kapabilitas |
-|--------|-------------|
-| 📊 Executive Intelligence | Health Score agregat, ARR/MRR, NRR velocity |
+| Domain | Capabilities |
+|--------|--------------|
+| 📊 Executive Intelligence | Aggregate Health Score, ARR/MRR, NRR velocity |
 | 💰 Financial ERP | P&L, OpEx breakdown, runway projection |
 | 🤝 B2B Sales CRM | Kanban deal pipeline, win-rate tracking |
-| 📣 B2C Campaign | ROAS, conversion funnel, cohort retensi |
+| 📣 B2C Campaign | ROAS, conversion funnel, cohort retention |
 | 🗂️ Sprint Hub | Backlog, sprint planning, release roadmap |
-| 👥 HRIS | Squad allocation, capacity, KPI performa |
+| 👥 HRIS | Squad allocation, capacity, KPI performance |
 | ☁️ AI Telemetry | SLA uptime, token consumption, incident log |
 
 **Tech Stack**: `Next.js 16` · `TypeScript` · `Framer Motion` · `Recharts` · `Zustand`
@@ -153,12 +148,12 @@ Platform SaaS Manajemen Konstruksi Enterprise *end-to-end* yang mengintegrasikan
 
 <br>
 
-Aplikasi simulasi ujian CBT lintas platform (Android/iOS/Web) dengan arsitektur *Multi-Product Single Instance* mendukung **17+ niche pembelajaran**.
+A large-scale, cross-platform CBT (Computer Based Test) simulation app for Android, iOS, and Web. Powered by a *Multi-Product Single Instance* architecture supporting 17+ learning niches.
 
-- 🤖 **AI Coach**: Generative AI dengan rantaian Fallback (Gemini ➔ Groq ➔ Cerebras) — uptime 99.9%
-- 💳 **Monetisasi**: Payment Gateway (Duitku) & subscription model
+- 🤖 **AI Coach**: Generative AI with a tiered Fallback Chain (Gemini ➔ Groq ➔ Cerebras) ensuring 99.9% uptime
+- 💳 **Monetization**: Duitku Payment Gateway integration & subscription model
 - 📦 **Global CDN**: S3-Compatible Object Storage (Cloudflare R2)
-- 🔐 **Auth**: Dual Identity System (User vs Membership) + JWT Refresh Token
+- 🔐 **Auth**: Dual Identity System (User vs Membership) + JWT Refresh Tokens
 
 **Tech Stack**: `Expo SDK 54` · `React Native` · `NestJS 10` · `PostgreSQL (Neon)` · `Sentry`
 
@@ -175,9 +170,9 @@ Aplikasi simulasi ujian CBT lintas platform (Android/iOS/Web) dengan arsitektur 
 
 <br>
 
-Portal marketing multi-tenant dengan subdomain dinamis untuk 17+ niche pembelajaran. Ekosistem terbagi dua:
-- **Landing Page** (Next.js 14): Guest Mode Tryout, 17 palet warna unik, SEO teroptimasi
-- **Admin Dashboard** (Next.js 16): CMS/CRM tersentralisasi — editor Markdown, drag-and-drop (@dnd-kit), analitik real-time
+A cross-disciplinary EdTech ecosystem and multi-tenant marketing portal serving dynamic subdomains for 17+ learning niches. The ecosystem is split into:
+- **Landing Page** (Next.js 14): Guest Mode Tryout system, 17 unique color palettes, highly SEO-optimized
+- **Admin Dashboard** (Next.js 16): Centralized CMS/CRM command center with Markdown & drag-and-drop (@dnd-kit) editor, and real-time analytics
 
 **Tech Stack**: `Next.js 16` · `Shadcn UI` · `TanStack Query v5` · `@dnd-kit` · `Framer Motion`
 
@@ -194,12 +189,12 @@ Portal marketing multi-tenant dengan subdomain dinamis untuk 17+ niche pembelaja
 
 <br>
 
-B2B SaaS PMS *end-to-end* untuk hotel & villa + **simulator edukasi gratis bagi siswa SMK Perhotelan**.
+An end-to-end cloud-based B2B SaaS PMS tailored for mid-scale hotels and villas, concurrently serving as a **free educational simulator for vocational students**.
 
-- 🏛️ **Architecture**: Modular Monolith (NestJS 10) + Multi-Tenancy (isolasi data per properti)
-- 🔄 **Real-time Sync**: Front Office ↔ Housekeeping status sinkronisasi
-- ⚙️ **Background Jobs**: BullMQ + Redis untuk skalabilitas tinggi
-- 📊 **Modules**: Guest CRM, Reviews Aggregator, Season Rates, Direct Booking UI
+- 🏛️ **Architecture**: Modular Monolith (NestJS 10) + strict Multi-Tenancy data isolation per property
+- 🔄 **Real-time Sync**: Synchronizes Front Office and Housekeeping workflows instantly
+- ⚙️ **Background Jobs**: BullMQ + Redis for robust background task scaling
+- 📊 **Modules**: Unified Guest CRM, Reviews Aggregator, Dynamic Season Rates, Direct Booking UI
 
 **Tech Stack**: `Next.js 14` · `NestJS 10` · `PostgreSQL (Neon)` · `BullMQ/Redis` · `Zustand`
 
@@ -216,12 +211,12 @@ B2B SaaS PMS *end-to-end* untuk hotel & villa + **simulator edukasi gratis bagi 
 
 <br>
 
-Agregator lowongan magang nasional yang menembus proteksi WAF/Cloudflare dan memproses ribuan data *instan*.
+A large-scale independent national internship aggregator designed to solve chronic downtime issues on the official government system by intelligently bypassing WAF/Cloudflare protections.
 
 - 🔀 **Hybrid Data 3-Mode**: Server sync ➔ Realtime Proxy ➔ Offline IndexedDB
-- ⚡ **Zero-Latency**: Filtering ribuan lowongan tanpa loading — langsung di browser
-- 🔎 **Smart Filter**: Algoritma "Rasio Keketatan Peluang" untuk strategi pelamar
-- 🏆 **SEO Dominance**: JSON-LD Aggregate Rating — Bintang Emas di Google
+- ⚡ **Zero-Latency**: Filtering thousands of internship records instantly on the client browser
+- 🔎 **Smart Filter**: Unique acceptance ratio search algorithm for better application strategy
+- 🏆 **SEO Dominance**: Aggressive JSON-LD Aggregate Rating resulting in Google Rich Snippets
 
 **Tech Stack**: `Next.js 16` · `Supabase` · `IndexedDB` · `Zustand`
 
@@ -238,12 +233,12 @@ Agregator lowongan magang nasional yang menembus proteksi WAF/Cloudflare dan mem
 
 <br>
 
-Website portofolio 3D interaktif yang berfungsi sebagai **demonstrasi teknis langsung**.
+A premium interactive 3D portfolio website serving as a **direct engineering showcase** rather than just an information page.
 
-- 🖼️ **X-Ray Effect**: Portrait X-Ray berbasis Three.js & custom GLSL Fragment Shaders
-- ✍️ **Signature Scroll**: Animasi tanda tangan di-scrub presisi oleh scroll progress
-- 🎬 **Cinematic Transitions**: Multi-fase clip-path animation + Lenis Smooth Scroll
-- 📱 **Mobile-First**: Scroll Lock & Swipe mode — presisi sentuhan jari
+- 🖼️ **X-Ray Effect**: Innovative WebGL-based Portrait X-Ray (Three.js & custom GLSL Fragment Shaders)
+- ✍️ **Signature Scroll**: Signature animation scrubbed precisely by scroll progress
+- 🎬 **Cinematic Transitions**: Multi-phase clip-path animations + Lenis Smooth Scroll inertia
+- 📱 **Mobile-First**: Scroll Lock & Swipe mode for precise finger-sized touch manipulation
 
 **Tech Stack**: `Next.js 14` · `Three.js/WebGL` · `Framer Motion` · `Lenis` · `Radix UI`<br>
 **Live**: [`rg.raihly.app`](https://rg.raihly.app)
@@ -261,12 +256,12 @@ Website portofolio 3D interaktif yang berfungsi sebagai **demonstrasi teknis lan
 
 <br>
 
-Ekstensi mobile (Android Native) untuk sistem helpdesk legacy desktop di industri perhotelan.
+An Enterprise Helpdesk mobile extension (Android Native) designed to expand the operational reach of a legacy desktop ticketing system in the hospitality industry.
 
-- 🔗 **Bridge Architecture**: API Middleware (Node.js/Express) ↔ Legacy MySQL Database
+- 🔗 **Bridge Architecture**: API Middleware (Node.js/Express) ↔ Legacy MySQL Database without downtime
 - 📱 **Modern Client**: Kotlin + Jetpack Compose (Material 3) + MVVM + Hilt DI
-- ♻️ **Async**: Kotlin Coroutines/Flow untuk data streaming responsif
-- 📄 **Export**: Generator laporan PDF & Excel otomatis
+- ♻️ **Async**: Kotlin Coroutines/Flow for responsive asynchronous data handling
+- 📄 **Export**: Automated PDF & Excel report generator
 
 **Tech Stack**: `Kotlin` · `Jetpack Compose` · `Hilt` · `Node.js/Express` · `MySQL`
 
@@ -283,12 +278,12 @@ Ekstensi mobile (Android Native) untuk sistem helpdesk legacy desktop di industr
 
 <br>
 
-Top 50 Capstone Bangkit Academy 2024 — deteksi dini anomali lesi kulit berbasis AI.
+Top 50 Bangkit Academy 2024 Capstone Project — an AI-powered mobile app for early detection of skin lesions.
 
-- 🧠 **AI Engine**: CNN + Grad-CAM Heatmap Analysis untuk visualisasi diagnosa
-- 💬 **Chatbot**: Telemedicine interaktif bertenaga Gemini API (LLM)
-- 🏥 **Ecosystem**: Forum komunitas pasien + artikel medis dokter + gamifikasi
-- ☁️ **Real-time**: Firebase (Auth, Firestore, Cloud Storage) untuk sinkronisasi instan
+- 🧠 **AI Engine**: Advanced CNN + Grad-CAM Heatmap Analysis for interpretable diagnosis
+- 💬 **Chatbot**: Interactive Telemedicine Chatbot powered by Large Language Models (Gemini API)
+- 🏥 **Ecosystem**: Gamified patient community + doctor medical article publishing
+- ☁️ **Real-time**: Firebase (Auth, Firestore, Cloud Storage) for instant data synchronization
 
 **Tech Stack**: `Kotlin` · `Gemini API` · `Firebase` · `CNN/Grad-CAM`
 
@@ -301,7 +296,7 @@ Top 50 Capstone Bangkit Academy 2024 — deteksi dini anomali lesi kulit berbasi
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="28" /> GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ranggagumilang&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ranggagumilang&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%" style="margin-right: 2%;"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranggagumilang&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="48%"/>
 </div>
 
@@ -325,7 +320,7 @@ Top 50 Capstone Bangkit Academy 2024 — deteksi dini anomali lesi kulit berbasi
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/output/github-snake.svg" />
-    <!-- Hapus komentar baris img di bawah jika workflow snake sudah dijalankan -->
+    <!-- Uncomment the img tag below once the snake workflow is running successfully -->
     <!-- <img alt="Contribution Snake" src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/output/github-snake-dark.svg" width="100%" /> -->
   </picture>
 </div>
@@ -338,7 +333,7 @@ Top 50 Capstone Bangkit Academy 2024 — deteksi dini anomali lesi kulit berbasi
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" width="100%"/>
   <br>
   <samp>
-    <b>"Menulis kode yang berjalan adalah dasar; merancang arsitektur yang tangguh dan terukur adalah seni."</b>
+    <b>"Writing code that works is the baseline; designing a resilient and scalable architecture is art."</b>
     <br><br>
     📧 ranggagum45@gmail.com · 🔗 <a href="https://linkedin.com/in/ranggagum">LinkedIn</a> · 🌐 <a href="https://rg.raihly.app">rg.raihly.app</a>
   </samp>
