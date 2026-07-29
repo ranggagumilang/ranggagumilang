@@ -89,24 +89,20 @@ Designing and launching production-scale systems across various industries, incl
 
 <!-- ─────────── BUILDFLOW ─────────── -->
 <details open>
-<summary><b>🏗️ BuildFlow — AI Estimator & Cost Control SaaS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Internal_Beta-F59E0B?style=flat-square"/></summary>
+<summary><b>🏗️ BuildFlow - AI RAB & Cost Control SaaS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Internal_Beta-F59E0B?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- REPLACE URL BELOW WITH YOUR CANVA IMAGE LATER -->
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/buildflow-showcase.png" width="90%" alt="BuildFlow Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/buildflow.png" width="90%" alt="BuildFlow Showcase"/>
 </div>
 
 <br>
 
-End-to-End Enterprise Construction Management SaaS platform. Integrates the entire project lifecycle: multi-project aggregation, AHSP SNI standard cost estimator (RAB/HPP), budget variance analysis, S-Curve & daily log tracking, payables/receivables management, legal document generator, and an **AI Cost Control Assistant**.
+**Tagline**: *End-to-End Construction Management SaaS with Precision Estimating, Advanced Finance, & Multi-Model AI.*
 
-| Aspect | Details |
-|--------|---------|
-| **AI Architecture** | Resilient Fallback Chain: Gemma 4 31B ➔ Gemini 3.5 Flash ➔ Gemini 3.6 (30K msgs/day) |
-| **Security** | Human-in-the-Loop Action Cards — AI cannot mutate RAB data without manual user approval |
-| **Finance Modules** | Cashflow Chart, Payables/Receivables Tracker, P&L Summary, Budget Variance Analysis |
-| **Tech Stack** | `Next.js 16` · `PostgreSQL (Supabase RLS)` · `Vercel AI SDK` · `Zustand` · `jsPDF` |
+An Enterprise Construction Management SaaS platform based on Next.js 16 & Supabase. Integrates the entire end-to-end project lifecycle: multi-project aggregation, AHSP SNI standard RAB/HPP calculator, budget variance analysis (RAB vs Actual), S-Curve & daily log tracking, payables (termin) & vendor receivables management, legal document generator (SPK, Proposal, Invoice PDF), and an AI Cost Control Assistant powered by Multi-Model AI (Gemma 4 & Gemini 3.6) with Resilient Fallback Chain & Human-in-the-Loop Security architecture.
+
+**Tech Stack**: `Next.js 16 (App Router)` · `React 19` · `Tailwind CSS v4` · `Supabase (PostgreSQL & Auth)` · `Vercel AI SDK` · `Google Gemini 3.6 & Gemma 4 AI` · `Zustand` · `jsPDF & Canvas Engine`
 
 </details>
 
@@ -116,176 +112,162 @@ End-to-End Enterprise Construction Management SaaS platform. Integrates the enti
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/omniventure-showcase.png" width="90%" alt="OmniVenture Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/omniventure.png" width="90%" alt="OmniVenture Showcase"/>
 </div>
 
 <br>
 
-An *Executive Operating System (OS)* designed for holding startups with multiple active products. Integrates **7 critical business domains** into a single Single Page Application (SPA) command center.
+**Tagline**: *An integrated platform to monitor, manage, and operate multi-business lines from a single command center.*
 
-| Domain | Capabilities |
-|--------|--------------|
-| 📊 Executive Intelligence | Aggregate Health Score, ARR/MRR, NRR velocity |
-| 💰 Financial ERP | P&L, OpEx breakdown, runway projection |
-| 🤝 B2B Sales CRM | Kanban deal pipeline, win-rate tracking |
-| 📣 B2C Campaign | ROAS, conversion funnel, cohort retention |
-| 🗂️ Sprint Hub | Backlog, sprint planning, release roadmap |
-| 👥 HRIS | Squad allocation, capacity, KPI performance |
-| ☁️ AI Telemetry | SLA uptime, token consumption, incident log |
+OmniVenture is a Holding Operations Platform designed for holding startups with more than one active product. It integrates seven business domains into a single executive interface: Executive Portfolio Intelligence, Financial ERP & Revenue Intelligence, B2B Sales CRM Pipeline, B2C Growth & Campaign Management, Agile Project & Sprint Management, Workload HRIS, and AI Cloud Telemetry & Incident Monitoring.
 
-**Tech Stack**: `Next.js 16` · `TypeScript` · `Framer Motion` · `Recharts` · `Zustand`
-
-</details>
-
-<!-- ─────────── RAIHLY CPNS ─────────── -->
-<details>
-<summary><b>🎓 Raihly CPNS — Cross-Platform CBT & AI Coach</b> &nbsp; <img src="https://img.shields.io/badge/Status-Market_Ready-8B5CF6?style=flat-square"/></summary>
-<br>
-
-<div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/raihly-cpns-showcase.png" width="90%" alt="Raihly CPNS Showcase"/> -->
-</div>
-
-<br>
-
-A large-scale, cross-platform CBT (Computer Based Test) simulation app for Android, iOS, and Web. Powered by a *Multi-Product Single Instance* architecture supporting 17+ learning niches.
-
-- 🤖 **AI Coach**: Generative AI with a tiered Fallback Chain (Gemini ➔ Groq ➔ Cerebras) ensuring 99.9% uptime
-- 💳 **Monetization**: Duitku Payment Gateway integration & subscription model
-- 📦 **Global CDN**: S3-Compatible Object Storage (Cloudflare R2)
-- 🔐 **Auth**: Dual Identity System (User vs Membership) + JWT Refresh Tokens
-
-**Tech Stack**: `Expo SDK 54` · `React Native` · `NestJS 10` · `PostgreSQL (Neon)` · `Sentry`
+**Tech Stack**: `Next.js 16 (App Router)` · `React 19` · `TypeScript` · `Tailwind CSS v4` · `Framer Motion` · `Recharts` · `Zustand` · `Radix UI`
 
 </details>
 
 <!-- ─────────── RAIHLY PLATFORM ─────────── -->
 <details>
-<summary><b>🌐 Raihly Platform — Multi-Tenant EdTech Hub</b> &nbsp; <img src="https://img.shields.io/badge/Status-Market_Ready-3B82F6?style=flat-square"/></summary>
+<summary><b>🌐 Raihly Platform & Admin Dashboard</b> &nbsp; <img src="https://img.shields.io/badge/Status-Market_Ready-3B82F6?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/raihly-platform-showcase.png" width="90%" alt="Raihly Platform Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/raihlyplatform.png" width="90%" alt="Raihly Platform Showcase"/>
 </div>
 
 <br>
 
-A cross-disciplinary EdTech ecosystem and multi-tenant marketing portal serving dynamic subdomains for 17+ learning niches. The ecosystem is split into:
-- **Landing Page** (Next.js 14): Guest Mode Tryout system, 17 unique color palettes, highly SEO-optimized
-- **Admin Dashboard** (Next.js 16): Centralized CMS/CRM command center with Markdown & drag-and-drop (@dnd-kit) editor, and real-time analytics
+**Tagline**: *Central hub, multi-tenant landing page, and admin dashboard for 17+ Raihly niches.*
 
-**Tech Stack**: `Next.js 16` · `Shadcn UI` · `TanStack Query v5` · `@dnd-kit` · `Framer Motion`
+A cross-disciplinary EdTech ecosystem and multi-tenant marketing portal serving dynamic subdomains for 17+ learning niches. This ecosystem is divided into two parts: an optimized Landing Page (Next.js 14, Framer Motion, Radix UI) featuring a Guest Mode Tryout system and 17 unique color palettes, and a centralized Admin Dashboard (Next.js 16, TanStack Query). This dashboard acts as a command center (CMS/CRM) to manage hundreds of curriculum contents (via Markdown editor & @dnd-kit drag-and-drop), monitor real-time user analytics, process recurring transactions, and execute broadcast notifications to all ecosystem users.
+
+**Tech Stack**: `Next.js 16` · `React 19` · `Tailwind CSS v4` · `Shadcn UI` · `Framer Motion` · `TanStack Query v5` · `@dnd-kit`
+
+</details>
+
+<!-- ─────────── RAIHLY CPNS ─────────── -->
+<details>
+<summary><b>🎓 Raihly CPNS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Market_Ready-8B5CF6?style=flat-square"/></summary>
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/raihlycpns.png" width="90%" alt="Raihly CPNS Showcase"/>
+</div>
+
+<br>
+
+**Tagline**: *An interactive cross-platform CPNS exam preparation app with an AI Coach.*
+
+A large-scale, interactive cross-platform CBT (Computer Based Test) preparation app (Android, iOS, Web). Built using Expo SDK 54 and React Native Reanimated to present a responsive Glassmorphism interface and educational mascot micro-animations (DotLottie). The entire system is supported by a REST API backend (NestJS 10, PostgreSQL) with a Multi-Product Single Instance architecture and a Dual Identity system. Features include global file delivery via S3-Compatible Object Storage, automated Payment Gateway integration (Duitku), and a Generative AI Coach assistant using a tiered Fallback chain (Gemini to Groq) to guarantee 99.9% service availability.
+
+**Tech Stack**: `Expo SDK 54` · `React Native` · `NestJS 10` · `Prisma ORM` · `PostgreSQL (Neon)` · `Google Generative AI` · `Duitku Payment Gateway` · `Cloudflare R2`
 
 </details>
 
 <!-- ─────────── HOTEL PMS ─────────── -->
 <details>
-<summary><b>🏨 Hotel PMS — Multi-Tenant Property Management</b> &nbsp; <img src="https://img.shields.io/badge/Status-Production_%26_Education-10B981?style=flat-square"/></summary>
+<summary><b>🏨 Hotel PMS</b> &nbsp; <img src="https://img.shields.io/badge/Status-Production_%26_Education-10B981?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/pms-showcase.png" width="90%" alt="Hotel PMS Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/inapPMS.png" width="90%" alt="Hotel PMS Showcase"/>
 </div>
 
 <br>
 
-An end-to-end cloud-based B2B SaaS PMS tailored for mid-scale hotels and villas, concurrently serving as a **free educational simulator for vocational students**.
+**Tagline**: *Operational system for mid-scale hotels, villas, and a free educational medium for vocational high school (SMK) students.*
 
-- 🏛️ **Architecture**: Modular Monolith (NestJS 10) + strict Multi-Tenancy data isolation per property
-- 🔄 **Real-time Sync**: Synchronizes Front Office and Housekeeping workflows instantly
-- ⚙️ **Background Jobs**: BullMQ + Redis for robust background task scaling
-- 📊 **Modules**: Unified Guest CRM, Reviews Aggregator, Dynamic Season Rates, Direct Booking UI
+An end-to-end cloud-based B2B SaaS Property Management System (PMS) specifically designed for mid-scale hotel and villa operations, while concurrently functioning actively as a free educational simulator for Hospitality Vocational students. This platform is built on a Modular Monolith architecture (NestJS 10) with highly strict Multi-Tenancy data isolation (one PostgreSQL database securely serving many properties). Integrates Front Office and Housekeeping workflows synchronously (real-time), unified Guest CRM & Reviews Aggregator management, dynamic Season Rates settings, Direct Booking UI, and a robust Background Job Processing infrastructure powered by Message Queue (BullMQ/Redis).
 
-**Tech Stack**: `Next.js 14` · `NestJS 10` · `PostgreSQL (Neon)` · `BullMQ/Redis` · `Zustand`
+**Tech Stack**: `Next.js 14` · `NestJS 10` · `Prisma ORM` · `PostgreSQL (Neon)` · `BullMQ (Redis)` · `Zustand` · `TanStack Query`
 
 </details>
 
 <!-- ─────────── MAGANGHUB ─────────── -->
 <details>
-<summary><b>🔍 MagangHub Tracker — Zero-Latency Aggregator</b> &nbsp; <img src="https://img.shields.io/badge/Status-Live_Project-10B981?style=flat-square"/></summary>
+<summary><b>🔍 MagangHub Tracker</b> &nbsp; <img src="https://img.shields.io/badge/Status-Live_Project-10B981?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/maganghub-showcase.png" width="90%" alt="MagangHub Tracker Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/magangtracker.png" width="90%" alt="MagangHub Tracker Showcase"/>
 </div>
 
 <br>
 
-A large-scale independent national internship aggregator designed to solve chronic downtime issues on the official government system by intelligently bypassing WAF/Cloudflare protections.
+**Tagline**: *A lightning-fast national internship vacancy aggregator with an anti-down smart filter.*
 
-- 🔀 **Hybrid Data 3-Mode**: Server sync ➔ Realtime Proxy ➔ Offline IndexedDB
-- ⚡ **Zero-Latency**: Filtering thousands of internship records instantly on the client browser
-- 🔎 **Smart Filter**: Unique acceptance ratio search algorithm for better application strategy
-- 🏆 **SEO Dominance**: Aggressive JSON-LD Aggregate Rating resulting in Google Rich Snippets
+A large-scale independent national internship vacancy aggregator portal designed specifically to overcome chronic downtime issues on the official government system. This system cleverly penetrates WAF/Cloudflare protection using a Localhost Trigger script for data scraping via residential IP. Outperforms the main portal thanks to a 3-Mode Hybrid Data architecture (Server Synchronization, Supabase Realtime Proxy, and Offline IndexedDB storage) that allows thousands of data to be filtered with Zero-Latency. Equipped with an algorithm to find the highest passing chance ratio, and optimized with aggressive SEO techniques (JSON-LD Aggregate Rating & smart sitemap) to dominate organic search results.
 
-**Tech Stack**: `Next.js 16` · `Supabase` · `IndexedDB` · `Zustand`
+**Tech Stack**: `Next.js 16` · `React 19` · `Tailwind CSS v4` · `Supabase (PostgreSQL)` · `IndexedDB` · `Zustand`
 
 </details>
 
 <!-- ─────────── PORTFOLIO WEBSITE ─────────── -->
 <details>
-<summary><b>🎨 Portfolio 3D — Interactive WebGL Website</b> &nbsp; <img src="https://img.shields.io/badge/Status-Live-6366f1?style=flat-square"/></summary>
+<summary><b>🎨 Rangga Gumilang — Portfolio Website</b> &nbsp; <img src="https://img.shields.io/badge/Status-Live-6366f1?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/portfolio-3d-showcase.png" width="90%" alt="Portfolio 3D Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/rg-landing.png" width="90%" alt="Portfolio 3D Showcase"/>
 </div>
 
 <br>
 
-A premium interactive 3D portfolio website serving as a **direct engineering showcase** rather than just an information page.
+**Tagline**: *Interactive 3D portfolio website with WebGL X-Ray effects, cinematic scrolling, and signature animation.*
 
-- 🖼️ **X-Ray Effect**: Innovative WebGL-based Portrait X-Ray (Three.js & custom GLSL Fragment Shaders)
-- ✍️ **Signature Scroll**: Signature animation scrubbed precisely by scroll progress
-- 🎬 **Cinematic Transitions**: Multi-phase clip-path animations + Lenis Smooth Scroll inertia
-- 📱 **Mobile-First**: Scroll Lock & Swipe mode for precise finger-sized touch manipulation
+A premium interactive 3D portfolio website designed not merely as an information page, but as a direct technical demonstration (showcase) of engineering capabilities. Built on the Next.js 14 ecosystem, this website presents an innovative WebGL-based Portrait X-Ray effect (Three.js & custom GLSL Fragment Shaders) that reacts to the cursor/touch. Features a signature animation precisely scrubbed by scroll position (Framer Motion), multi-phase cinematic page transitions with Lenis Smooth Scroll inertia, a smart Preloader system to hold rendering until GPU assets are ready, and a mobile-first 'Scroll Lock & Swipe' feature for a human finger-sized precision 3D manipulation experience without disrupting page movement.
 
-**Tech Stack**: `Next.js 14` · `Three.js/WebGL` · `Framer Motion` · `Lenis` · `Radix UI`<br>
-**Live**: [`rg.raihly.app`](https://rg.raihly.app)
+**Tech Stack**: `Next.js 14 (App Router)` · `React 18` · `TypeScript` · `Tailwind CSS v4` · `Framer Motion` · `Three.js / WebGL` · `Lenis (Smooth Scroll)` · `Radix UI` · `Vercel`
 
 </details>
 
 <!-- ─────────── MOOS ─────────── -->
 <details>
-<summary><b>🎫 MOOS Mobile — Enterprise Helpdesk Extension</b> &nbsp; <img src="https://img.shields.io/badge/Thesis_Project-Completed-6B7280?style=flat-square"/></summary>
+<summary><b>🎫 MOOS Mobile System</b> &nbsp; <img src="https://img.shields.io/badge/Thesis_Project-Completed-6B7280?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/moos-showcase.png" width="90%" alt="MOOS Mobile Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/moos-mobile.png" width="90%" alt="MOOS Mobile Showcase"/>
 </div>
 
 <br>
 
-An Enterprise Helpdesk mobile extension (Android Native) designed to expand the operational reach of a legacy desktop ticketing system in the hospitality industry.
+**Tagline**: *A mobile extension (Android) connected directly to an active legacy desktop helpdesk system (Thesis & Internship).*
 
-- 🔗 **Bridge Architecture**: API Middleware (Node.js/Express) ↔ Legacy MySQL Database without downtime
-- 📱 **Modern Client**: Kotlin + Jetpack Compose (Material 3) + MVVM + Hilt DI
-- ♻️ **Async**: Kotlin Coroutines/Flow for responsive asynchronous data handling
-- 📄 **Export**: Automated PDF & Excel report generator
+An Enterprise Helpdesk mobile extension system (Android) specifically designed to expand the operational reach of a legacy desktop-based ticketing system in the hospitality industry. The core innovation of this project lies in the API Middleware bridge architecture (Node.js/Express) that connects synchronously into the obsolete relational database engine (MySQL), enabling two-way data synchronization in real-time without the risk of downtime for desktop users. On the client side, the app is built Natively using Kotlin language, declarative Jetpack Compose UI (Material 3), MVVM architecture with Hilt dependency injection (Dagger), and Kotlin Coroutines/Flow for responsive asynchronous data handling.
 
-**Tech Stack**: `Kotlin` · `Jetpack Compose` · `Hilt` · `Node.js/Express` · `MySQL`
+**Tech Stack**: `Kotlin` · `Jetpack Compose` · `MVVM & Hilt` · `Node.js & Express` · `MySQL` · `Retrofit2`
 
 </details>
 
 <!-- ─────────── DERMASCAN ─────────── -->
 <details>
-<summary><b>🩺 DermaScan — Healthcare AI Mobile App</b> &nbsp; <img src="https://img.shields.io/badge/Bangkit_Top_50-Completed-4285F4?style=flat-square"/></summary>
+<summary><b>🩺 DermaScan</b> &nbsp; <img src="https://img.shields.io/badge/Bangkit_Top_50-Completed-4285F4?style=flat-square"/></summary>
 <br>
 
 <div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/dermascan-showcase.png" width="90%" alt="DermaScan Showcase"/> -->
+  <img src="https://raw.githubusercontent.com/ranggagumilang/ranggagumilang/main/assets/dermascan.png" width="90%" alt="DermaScan Showcase"/>
 </div>
 
 <br>
 
-Top 50 Bangkit Academy 2024 Capstone Project — an AI-powered mobile app for early detection of skin lesions.
+**Tagline**: *AI-based early detection app for skin lesions (Bangkit Academy Capstone).*
 
-- 🧠 **AI Engine**: Advanced CNN + Grad-CAM Heatmap Analysis for interpretable diagnosis
-- 💬 **Chatbot**: Interactive Telemedicine Chatbot powered by Large Language Models (Gemini API)
-- 🏥 **Ecosystem**: Gamified patient community + doctor medical article publishing
-- ☁️ **Real-time**: Firebase (Auth, Firestore, Cloud Storage) for instant data synchronization
+An innovative intelligent mobile app (Android Native) graduated from the Top 50 Capstone Bangkit Academy 2024 program that empowers patients and doctors for the early detection of skin lesion anomalies. Integrates advanced Machine Learning technologies (Convolutional Neural Networks) with visual area mapping (Grad-CAM Heatmap Analysis) so diagnostic results are easy to interpret. The platform also features an interactive Telemedicine Chatbot powered by Large Language Models (Gemini API), a gamification system for collecting patient community activity points, and a doctor medical article publishing ecosystem. All conversation data and medical records are instantly synchronized via Realtime NoSQL Cloud Database architecture (Firebase).
 
-**Tech Stack**: `Kotlin` · `Gemini API` · `Firebase` · `CNN/Grad-CAM`
+**Tech Stack**: `Android` · `Kotlin` · `Gemini API` · `Firebase` · `Grad-CAM AI`
+
+</details>
+
+<!-- ─────────── MAJADIGI ─────────── -->
+<details>
+<summary><b>🏛️ Majadigi Public Service QA (SEAL)</b> &nbsp; <img src="https://img.shields.io/badge/SEAL_Internship-Completed-6B7280?style=flat-square"/></summary>
+<br>
+
+**Tagline**: *Quality Assurance, AI Chatbot testing, & UX audit for the East Java Provincial Government public portal.*
+
+A crucial end-to-end Enterprise Quality Assurance (QA) initiative to oversee the quality of the Majadigi integrated public service platform owned by the East Java Provincial Government (SEAL Internship Program). Responsible for conducting comprehensive Manual & Black-Box Exploratory Testing, including User Acceptance Testing (UAT) verification. Conducted comprehensive audits on AI Chatbot capabilities (testing context accuracy, out-of-scope query handling, and dialogue clarity), found critical validation bugs and data edge-cases, executed UX/Usability interface heuristic evaluations, and compiled structured Defect Tracking reports to ensure system reliability and accessibility on a government scale before mass public launch.
+
+**Tech Stack**: `Manual QA Testing` · `Black-Box & UAT` · `Chatbot AI Audit` · `UX Heuristic Evaluation` · `Bug Reporting & Defect Tracking`
 
 </details>
 
@@ -305,9 +287,6 @@ Top 50 Bangkit Academy 2024 Capstone Project — an AI-powered mobile app for ea
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ranggagumilang&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=38BDF8&line=38BDF8&point=F59E0B" alt="Activity Graph" width="96%"/>
 </div>
-
-<br>
-
 
 <br>
 
