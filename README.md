@@ -296,7 +296,7 @@ Top 50 Bangkit Academy 2024 Capstone Project — an AI-powered mobile app for ea
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="28" /> GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ranggagumilang&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%" style="margin-right: 2%;"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ranggagumilang&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%" style="margin-right: 2%;"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranggagumilang&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="48%"/>
 </div>
 
@@ -308,9 +308,6 @@ Top 50 Bangkit Academy 2024 Capstone Project — an AI-powered mobile app for ea
 
 <br>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ranggagumilang&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="96%"/>
-</div>
 
 <br>
 
