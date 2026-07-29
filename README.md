@@ -82,7 +82,7 @@ Designing and launching production-scale systems across various industries, incl
 
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> Production Projects Showcase
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> Projects Showcase
 
 > **📌 Note**: Most repositories are strictly **Private** to protect Intellectual Property (IP).
 > Below is a showcase of the SaaS systems and digital products I have engineered and deployed.
@@ -278,7 +278,7 @@ A crucial end-to-end Enterprise Quality Assurance (QA) initiative to oversee the
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="28" /> GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ranggagumilang&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%" style="margin-right: 2%;"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ranggagumilang&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" alt="GitHub Stats" width="48%" style="margin-right: 2%;"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranggagumilang&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="48%"/>
 </div>
 
