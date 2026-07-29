@@ -82,7 +82,7 @@ Designing and launching production-scale systems across various industries, incl
 
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> Projects Showcase
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="28" /> Projects Showcase
 
 > **📌 Note**: Most repositories are strictly **Private** to protect Intellectual Property (IP).
 > Below is a showcase of the SaaS systems and digital products I have engineered and deployed.
